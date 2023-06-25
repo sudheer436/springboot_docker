@@ -9,13 +9,13 @@ public class HelloWorldController
     @RequestMapping("/")
     public String hello()
     {
-        return "Hello docker";
+        return "Hello git : feature";
     }
 
     @RequestMapping("/first")
     public String firstEndPoint()
     {
-        return "Hello first end Point ";
+        return "Hello firstendPointgit ";
     }
 
 
